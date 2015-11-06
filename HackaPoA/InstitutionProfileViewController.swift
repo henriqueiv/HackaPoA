@@ -19,15 +19,20 @@ class InstitutionProfileViewController: UIViewController {
     }
     
     var shouldPresentBottomBar: Bool = false
+    var institution:IBMDataObject!
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bottomBar: UIView!
     
+    @IBOutlet weak var institutionNameLabel: UILabel!
     let contactCellClassName = "InstitutionProfileContactTableViewCell"
     let interestCellClassName = "InstitutionProfileInterestTableViewCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        institutionNameLabel.text = (institution.objectForKey("escola") as! String).capitalizedString
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -107,15 +112,15 @@ extension InstitutionProfileViewController: UITableViewDataSource{
             var img:UIImage!
             switch indexPath.row{
             case Row.Address.rawValue:
-                text = "Rua Marcílio Dias, 678 - Porto Alegre"
+                text = (institution.objectForKey("endereco") as! String).capitalizedString
                 img = UIImage(named: "cloud")
-
+                
             case Row.Phone.rawValue:
-                text = "(51) 9929-3781"
+                text = institution.objectForKey("telefone") as! String
                 img = UIImage(named: "phone")
                 
             case Row.Email.rawValue:
-                text = "hey@reddo.com"
+                text = institution.objectForKey("email") as! String
                 img = UIImage(named: "email")
                 
             default:

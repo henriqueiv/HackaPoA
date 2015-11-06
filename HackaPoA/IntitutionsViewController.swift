@@ -43,6 +43,7 @@ extension IntitutionsViewController:UITableViewDelegate{
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         let vc = InstitutionProfileViewController()
         vc.shouldPresentBottomBar = false
+        vc.institution = self.institutions[indexPath.row]
         self.navigationController!.pushViewController(vc, animated: true)
     }
     
