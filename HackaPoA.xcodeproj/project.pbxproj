@@ -12,6 +12,7 @@
 		629F68B51BEC2E75000C0D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B31BEC2E75000C0D6E /* Main.storyboard */; };
 		629F68B71BEC2E75000C0D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B61BEC2E75000C0D6E /* Assets.xcassets */; };
 		629F68BA1BEC2E75000C0D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */; };
+		62FF6F2B1BEC4575006DB96E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FF6F2A1BEC4575006DB96E /* libsqlite3.tbd */; };
 		8C2C560B76B2048DF777AF84 /* libPods-HackaPoA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00E7C6DDBBCBACCA474AFAB /* libPods-HackaPoA.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		629F68B61BEC2E75000C0D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		629F68B91BEC2E75000C0D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		629F68BB1BEC2E75000C0D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FF6F2A1BEC4575006DB96E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		83079516A2E0CA48A937C4C0 /* Pods-HackaPoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.release.xcconfig"; sourceTree = "<group>"; };
 		A00E7C6DDBBCBACCA474AFAB /* libPods-HackaPoA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaPoA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -34,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FF6F2B1BEC4575006DB96E /* libsqlite3.tbd in Frameworks */,
 				8C2C560B76B2048DF777AF84 /* libPods-HackaPoA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +88,7 @@
 		D46E326F0FC36A19496DC011 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62FF6F2A1BEC4575006DB96E /* libsqlite3.tbd */,
 				A00E7C6DDBBCBACCA474AFAB /* libPods-HackaPoA.a */,
 			);
 			name = Frameworks;
@@ -102,6 +106,7 @@
 				629F68A91BEC2E75000C0D6E /* Frameworks */,
 				629F68AA1BEC2E75000C0D6E /* Resources */,
 				4A89DD816BB61FBCB6F0898A /* Copy Pods Resources */,
+				21006F8D046A40AACC2A5916 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +164,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		21006F8D046A40AACC2A5916 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4A89DD816BB61FBCB6F0898A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HackaPoA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.henriquevalcanaia.HackaPoA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HackaPoA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.henriquevalcanaia.HackaPoA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
