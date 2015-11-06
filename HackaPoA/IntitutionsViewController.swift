@@ -41,6 +41,7 @@ extension IntitutionsViewController:UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         let vc = InstitutionProfileViewController()
+        vc.institution = self.institutions[indexPath.row]
         self.navigationController!.pushViewController(vc, animated: true)
     }
     
