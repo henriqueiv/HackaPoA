@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IntitutionsViewController" customModule="HackaPoA" customModuleProvider="target">
@@ -27,9 +28,67 @@
                     <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fc6-hr-gIb">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7VA-3O-4Ce" userLabel="Vertical Keyline">
+                            <rect key="frame" x="187" y="5" width="1" height="40"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="KVB-QO-CC6"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyZ-Pr-NEc" userLabel="Horizontal Keyline">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="u7Y-7K-XNV"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtj-vz-Tw3">
+                            <rect key="frame" x="0.0" y="0.0" width="188" height="50"/>
+                            <animations/>
+                            <state key="normal" title="Meu perfil"/>
+                            <connections>
+                                <action selector="btnMeuProfileTouched:" destination="-1" eventType="touchUpInside" id="ACF-B3-HP4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efw-oP-TTv">
+                            <rect key="frame" x="188" y="0.0" width="187" height="50"/>
+                            <animations/>
+                            <state key="normal" title="Instituicoes"/>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="7VA-3O-4Ce" firstAttribute="centerY" secondItem="fc6-hr-gIb" secondAttribute="centerY" id="1QT-9x-Yua"/>
+                        <constraint firstAttribute="bottom" secondItem="Xtj-vz-Tw3" secondAttribute="bottom" id="DXP-eR-wro"/>
+                        <constraint firstAttribute="trailing" secondItem="yyZ-Pr-NEc" secondAttribute="trailing" id="KPt-vS-ZdN"/>
+                        <constraint firstItem="efw-oP-TTv" firstAttribute="width" secondItem="fc6-hr-gIb" secondAttribute="width" multiplier="0.5" id="Mfe-DJ-pza"/>
+                        <constraint firstAttribute="trailing" secondItem="efw-oP-TTv" secondAttribute="trailing" id="O4k-vm-3fn"/>
+                        <constraint firstItem="Xtj-vz-Tw3" firstAttribute="width" secondItem="fc6-hr-gIb" secondAttribute="width" multiplier="0.5" id="WZw-xb-2LN"/>
+                        <constraint firstItem="efw-oP-TTv" firstAttribute="top" secondItem="fc6-hr-gIb" secondAttribute="top" id="XHR-vC-BO2"/>
+                        <constraint firstItem="yyZ-Pr-NEc" firstAttribute="leading" secondItem="fc6-hr-gIb" secondAttribute="leading" id="bg9-EK-laW"/>
+                        <constraint firstItem="Xtj-vz-Tw3" firstAttribute="top" secondItem="fc6-hr-gIb" secondAttribute="top" id="fko-5P-hjb"/>
+                        <constraint firstAttribute="height" constant="50" id="jhB-di-ZTT"/>
+                        <constraint firstItem="yyZ-Pr-NEc" firstAttribute="top" secondItem="fc6-hr-gIb" secondAttribute="top" id="kUM-bh-0he"/>
+                        <constraint firstItem="Xtj-vz-Tw3" firstAttribute="leading" secondItem="fc6-hr-gIb" secondAttribute="leading" id="lq5-4c-brC"/>
+                        <constraint firstItem="7VA-3O-4Ce" firstAttribute="centerX" secondItem="fc6-hr-gIb" secondAttribute="centerX" id="lzo-34-539"/>
+                        <constraint firstAttribute="bottom" secondItem="efw-oP-TTv" secondAttribute="bottom" id="t2D-M3-MTc"/>
+                        <constraint firstItem="7VA-3O-4Ce" firstAttribute="height" secondItem="fc6-hr-gIb" secondAttribute="height" multiplier="0.8" id="wGl-YK-G4O"/>
+                    </constraints>
+                </view>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fc6-hr-gIb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Yad-sJ-nae"/>
+                <constraint firstAttribute="trailing" secondItem="fc6-hr-gIb" secondAttribute="trailing" id="vcR-S3-xGE"/>
+                <constraint firstAttribute="bottom" secondItem="fc6-hr-gIb" secondAttribute="bottom" id="zfh-oS-vMH"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="324.5" y="357.5"/>
         </view>

@@ -13,6 +13,8 @@
 		35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */; };
 		35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */; };
 		3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */; };
+		3DDC7B1D1BEC761100C9F118 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC7B1C1BEC761100C9F118 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3DDC7B1F1BEC762300C9F118 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC7B1E1BEC762300C9F118 /* HomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */; };
 		621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */; };
 		621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */; };
@@ -35,6 +37,8 @@
 		35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		3793D7672861FEF5CF786A2A /* Pods-HackaPoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.release.xcconfig"; sourceTree = "<group>"; };
 		3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instituicao.swift; sourceTree = "<group>"; };
+		3DDC7B1C1BEC761100C9F118 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3DDC7B1E1BEC762300C9F118 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileContactTableViewCell.swift; sourceTree = "<group>"; };
 		621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileContactTableViewCell.xib; sourceTree = "<group>"; };
 		621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileInterestTableViewCell.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 			children = (
 				3DCBFF0D1BEC6E9D0098C555 /* Models */,
 				629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */,
+				629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */,
 				629F68B61BEC2E75000C0D6E /* Assets.xcassets */,
 				357E824C1BEC43F0004248D4 /* HackaPoA-Bridging-Header.h */,
 				629F68BB1BEC2E75000C0D6E /* Info.plist */,
@@ -117,11 +122,12 @@
 				621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */,
 				621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */,
 				621B5A301BEC714800486CCE /* IntitutionsViewController.xib */,
-				629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */,
 				35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */,
 				35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */,
 				3591B7191BEC48F900533A0A /* VolunteerProfileViewController.swift */,
 				3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */,
+				3DDC7B1C1BEC761100C9F118 /* HomeViewController.swift */,
+				3DDC7B1E1BEC762300C9F118 /* HomeViewController.xib */,
 			);
 			path = HackaPoA;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */,
 				621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */,
 				621B5A381BEC714800486CCE /* IntitutionsViewController.xib in Resources */,
+				3DDC7B1F1BEC762300C9F118 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +258,7 @@
 				35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */,
 				621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */,
 				621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */,
+				3DDC7B1D1BEC761100C9F118 /* HomeViewController.swift in Sources */,
 				621B5A351BEC714800486CCE /* InstitutionProfileViewController.swift in Sources */,
 				3591B71B1BEC48F900533A0A /* VolunteerProfileViewController.swift in Sources */,
 				629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */,

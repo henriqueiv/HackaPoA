@@ -12,11 +12,9 @@ class VolunteerProfileViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageVIew: UIImageView!
-    
+    @IBOutlet weak var bottomBar: UIView!
     
     let sections = [["Administração", "Empreendedorismo", "Economia"], ["Marketing", "Desenho Gráfico", "Propaganda"],["Tecnologia", "Arduino", "Programação"]  ]
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +24,21 @@ class VolunteerProfileViewController: UIViewController {
         self.tableView.tableFooterView = UIView()
         self.tableView.registerNib(UINib(nibName: "ProfileTableViewCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "profileCell")
         // Do any additional setup after loading the view.
+        self.tableView.contentInset = UIEdgeInsetsMake(0, 0, CGRectGetHeight(self.bottomBar.frame), 0)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func btnInstituicoesTouched(sender: UIButton) {
+        
+        let vc = IntitutionsViewController()
+        self.navigationController!.setViewControllers([vc], animated: false)
+        
+    }
+    
 }
 
 

@@ -14,9 +14,17 @@ class IntitutionsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func btnMeuProfileTouched(sender: UIButton) {
+        
+        let vc = VolunteerProfileViewController()
+        self.navigationController!.setViewControllers([vc], animated: false)
+        
+    }
+    
     override func viewDidLoad(){
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.tableFooterView = UIView()
         
         let headerView = UIView(frame: CGRectMake(0,0,tableView.frame.size.width,1))
         headerView.backgroundColor = UIColor ( red: 0.4667, green: 0.5137, blue: 0.549, alpha: 1.0 )
@@ -43,6 +51,13 @@ class IntitutionsViewController: UIViewController {
 
 extension IntitutionsViewController:UITableViewDelegate{
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let vc = InstitutionProfileViewController()
+        self.navigationController!.pushViewController(vc, animated: true)
+        
+    }
     
 }
 

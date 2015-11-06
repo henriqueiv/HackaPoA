@@ -46,6 +46,10 @@ class InstitutionProfileViewController: UIViewController {
         
     }
     
+    @IBAction func btnBackTouched(sender: UIButton) {
+        self.navigationController!.popViewControllerAnimated(true)
+    }
+
 }
 
 extension InstitutionProfileViewController: UITableViewDelegate{
@@ -68,18 +72,23 @@ extension InstitutionProfileViewController: UITableViewDelegate{
 extension InstitutionProfileViewController: UITableViewDataSource{
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let label = UILabel(frame: CGRectMake(10, 5, tableView.frame.size.width, 18))
+        
         let string = (section == Section.Contact.rawValue) ? "Contato" : "Áreas de interesse"
         
-        label.font = UIFont.boldSystemFontOfSize(12)
-        label.textColor = UIColor ( red: 0.4667, green: 0.5137, blue: 0.549, alpha: 1.0 )
+        let view = UIView()
+        
+        view.backgroundColor = UIColor(red: 0xF6/255.0, green: 0xF8/255.0, blue: 0xFA/255.0, alpha: 1)
+        
+        let label = UILabel()
+        label.frame = CGRectMake(15, 0, CGRectGetWidth(tableView.frame), 25);
+        label.textColor = UIColor(red: 0x8F/255.0, green: 0x9F/255.0, blue: 0xA9/255.0, alpha: 1)
+        label.font = UIFont.systemFontOfSize(10.0)
         label.text = string
+        label.text = label.text!.uppercaseString
         
-        let view = UIView(frame: CGRectMake(0, 0, tableView.frame.size.width, 18))
         view.addSubview(label)
-        view.backgroundColor = UIColor ( red: 0.9412, green: 0.949, blue: 0.9608, alpha: 1.0 )
         
-        return view;
+        return view
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="HackaPoA" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="1gj-aO-Bbi" id="9UT-w9-Nvw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1gj-aO-Bbi">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUu-bh-p0D">
+                    <rect key="frame" x="0.0" y="236" width="375" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Sou voluntario"/>
+                    <connections>
+                        <action selector="btnVolPressed:" destination="-1" eventType="touchUpInside" id="vga-N3-Q0X"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noZ-iq-CYh">
+                    <rect key="frame" x="0.0" y="319" width="375" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Sou instituicao"/>
+                    <connections>
+                        <action selector="btnInstPressed:" destination="-1" eventType="touchUpInside" id="oSO-T9-v13"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldB-wZ-6HC">
+                    <rect key="frame" x="0.0" y="419" width="375" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Sou aluno"/>
+                    <connections>
+                        <action selector="btnAlunoPressed:" destination="-1" eventType="touchUpInside" id="Qne-qN-bfl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AUu-bh-p0D" firstAttribute="leading" secondItem="1gj-aO-Bbi" secondAttribute="leading" id="0WM-yH-X9x"/>
+                <constraint firstItem="noZ-iq-CYh" firstAttribute="centerY" secondItem="1gj-aO-Bbi" secondAttribute="centerY" id="2QM-11-V7q"/>
+                <constraint firstItem="noZ-iq-CYh" firstAttribute="top" secondItem="AUu-bh-p0D" secondAttribute="bottom" multiplier="1.2" id="MUO-ke-zAN"/>
+                <constraint firstAttribute="trailing" secondItem="ldB-wZ-6HC" secondAttribute="trailing" id="iBJ-oo-Ccw"/>
+                <constraint firstAttribute="trailing" secondItem="noZ-iq-CYh" secondAttribute="trailing" id="lGB-Rf-30F"/>
+                <constraint firstItem="ldB-wZ-6HC" firstAttribute="top" secondItem="noZ-iq-CYh" secondAttribute="bottom" multiplier="1.2" id="nXr-wm-vdL"/>
+                <constraint firstItem="ldB-wZ-6HC" firstAttribute="leading" secondItem="1gj-aO-Bbi" secondAttribute="leading" id="o1G-Hh-hNT"/>
+                <constraint firstAttribute="trailing" secondItem="AUu-bh-p0D" secondAttribute="trailing" id="she-R8-rHs"/>
+                <constraint firstItem="noZ-iq-CYh" firstAttribute="leading" secondItem="1gj-aO-Bbi" secondAttribute="leading" id="yZj-B5-t8O"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="214.5" y="422.5"/>
+        </view>
+    </objects>
+</document>
