@@ -10,7 +10,7 @@ import Foundation
 
 class Test {
     
-    var itemList:[Instituicao] = [Instituicao]()
+    var itemList:[IBMDataObject] = [IBMDataObject]()
     
     func runTest() {
         self.listItems({
@@ -27,15 +27,9 @@ class Test {
                 print("listItems failed with error: %@", task.error)
             } else {
                 self.itemList = []
-                if let result = task.result() as? NSArray {
-                    for i in 0..<result.count {
-                        print(result[i])
-                        if let item: Instituicao = result[i] as? Instituicao {
-                            self.itemList.append(item)
-                        }
-                    }
+                if let result = task.result() as? [IBMDataObject] {
+                    self.itemList = result
                 }
-                
                 callback()
             }
             return nil

@@ -10,7 +10,7 @@ import UIKit
 
 class IntitutionsViewController: UIViewController {
     
-    let institutions = ["EEEP Solon Tavares", "EMEF América"]
+    var institutions = [IBMDataObject]()
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -26,37 +26,26 @@ class IntitutionsViewController: UIViewController {
         tableView.delegate = self
         tableView.tableFooterView = UIView()
         
-        let headerView = UIView(frame: CGRectMake(0,0,tableView.frame.size.width,1))
-        headerView.backgroundColor = UIColor ( red: 0.4667, green: 0.5137, blue: 0.549, alpha: 1.0 )
-        tableView.tableHeaderView = headerView
-        
-//        let endpoint = "http://reddo-backend-hackaton.mybluemix.net/estaduais"
-//        let url = NSURL(string: endpoint)!
-//        let request = NSURLRequest(URL: url)
-//        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler: { (response, data, error) -> Void in
-//            do{
-//                let json = try NSJSONSerialization.JSONObjectWithData(data!, options: [NSJSONReadingOptions.MutableLeaves, NSJSONReadingOptions.MutableContainers])
-//                if let results = json["results"] as? NSDictionary{
-//                    if let records = results["records"] as? [NSDictionary]{
-//                        print("records")
-//                    }
-//                }
-////                print(json)
-//            }catch let error{
-//                print(error)
-//            }
-//        })
+        let test = Test()
+        test.listItems {
+            self.institutions = test.itemList.sort({ (this, that) -> Bool in
+                (this.objectForKey("escola") as! String).localizedCaseInsensitiveCompare(that.objectForKey("escola") as! String) == NSComparisonResult.OrderedAscending
+            })
+            self.tableView.reloadData()
+        }
     }
 }
 
 extension IntitutionsViewController:UITableViewDelegate{
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         let vc = InstitutionProfileViewController()
         self.navigationController!.pushViewController(vc, animated: true)
-        
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 50
     }
     
 }
@@ -68,14 +57,19 @@ extension IntitutionsViewController:UITableViewDataSource{
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(institutions.count)
         return institutions.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        print(indexPath)
         let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "InstitutionCell")
         
-        cell.textLabel?.text = institutions[indexPath.row]
+        let escola = institutions[indexPath.row].objectForKey("escola") as! String
+        cell.textLabel?.text = escola.capitalizedString
         cell.textLabel?.textColor = UIColor( red: 0.4667, green: 0.5137, blue: 0.549, alpha: 1.0 )
+        
+        cell.accessoryType = .DisclosureIndicator
         
         return cell
     }

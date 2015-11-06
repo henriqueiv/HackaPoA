@@ -24,7 +24,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="93F-LU-jhv">
-                    <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                     <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
@@ -90,7 +90,7 @@
                 <constraint firstAttribute="bottom" secondItem="fc6-hr-gIb" secondAttribute="bottom" id="zfh-oS-vMH"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="324.5" y="357.5"/>
+            <point key="canvasLocation" x="344.5" y="356.5"/>
         </view>
     </objects>
 </document>
