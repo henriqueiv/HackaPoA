@@ -11,6 +11,7 @@
 		3591B71C1BEC48F900533A0A /* VolunteerProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */; };
 		35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */; };
 		35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */; };
+		3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */; settings = {ASSET_TAGS = (); }; };
 		629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */; };
 		629F68B21BEC2E75000C0D6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629F68B11BEC2E75000C0D6E /* ViewController.swift */; };
 		629F68B51BEC2E75000C0D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B31BEC2E75000C0D6E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolunteerProfileViewController.xib; sourceTree = "<group>"; };
 		35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instituicao.swift; sourceTree = "<group>"; };
 		54D776E80FED705FAA436312 /* Pods-HackaPoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.debug.xcconfig"; sourceTree = "<group>"; };
 		629F68AC1BEC2E75000C0D6E /* HackaPoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaPoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DCBFF0D1BEC6E9D0098C555 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		408DEE288D574B48271C2EEC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		629F68AE1BEC2E75000C0D6E /* HackaPoA */ = {
 			isa = PBXGroup;
 			children = (
+				3DCBFF0D1BEC6E9D0098C555 /* Models */,
 				629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */,
 				629F68B11BEC2E75000C0D6E /* ViewController.swift */,
 				629F68B31BEC2E75000C0D6E /* Main.storyboard */,
@@ -214,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */,
 				629F68B21BEC2E75000C0D6E /* ViewController.swift in Sources */,
 				35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */,
 				3591B71B1BEC48F900533A0A /* VolunteerProfileViewController.swift in Sources */,
