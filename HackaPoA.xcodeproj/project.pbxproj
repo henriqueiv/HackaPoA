@@ -19,6 +19,7 @@
 		621B5A361BEC714800486CCE /* InstitutionProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */; };
 		621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */; };
 		621B5A381BEC714800486CCE /* IntitutionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A301BEC714800486CCE /* IntitutionsViewController.xib */; };
+		3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */; };
 		629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */; };
 		629F68B71BEC2E75000C0D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B61BEC2E75000C0D6E /* Assets.xcassets */; };
 		629F68BA1BEC2E75000C0D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */; };
@@ -39,6 +40,7 @@
 		621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileViewController.xib; sourceTree = "<group>"; };
 		621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntitutionsViewController.swift; sourceTree = "<group>"; };
 		621B5A301BEC714800486CCE /* IntitutionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntitutionsViewController.xib; sourceTree = "<group>"; };
+		3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instituicao.swift; sourceTree = "<group>"; };
 		629F68AC1BEC2E75000C0D6E /* HackaPoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaPoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		629F68B61BEC2E75000C0D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DCBFF0D1BEC6E9D0098C555 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		629F68A31BEC2E75000C0D6E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		629F68AE1BEC2E75000C0D6E /* HackaPoA */ = {
 			isa = PBXGroup;
 			children = (
+				3DCBFF0D1BEC6E9D0098C555 /* Models */,
 				629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */,
 				629F68B61BEC2E75000C0D6E /* Assets.xcassets */,
 				357E824C1BEC43F0004248D4 /* HackaPoA-Bridging-Header.h */,
@@ -185,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */,
+				3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */,
+				629F68B21BEC2E75000C0D6E /* ViewController.swift in Sources */,
 				35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */,
 				621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */,
 				621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */,
