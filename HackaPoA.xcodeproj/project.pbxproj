@@ -11,6 +11,14 @@
 		3591B71C1BEC48F900533A0A /* VolunteerProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */; };
 		35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */; };
 		35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */; };
+		621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */; };
+		621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */; };
+		621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */; };
+		621B5A341BEC714800486CCE /* InstitutionProfileInterestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2C1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.xib */; };
+		621B5A351BEC714800486CCE /* InstitutionProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2D1BEC714800486CCE /* InstitutionProfileViewController.swift */; };
+		621B5A361BEC714800486CCE /* InstitutionProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */; };
+		621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */; };
+		621B5A381BEC714800486CCE /* IntitutionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A301BEC714800486CCE /* IntitutionsViewController.xib */; };
 		629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */; };
 		629F68B71BEC2E75000C0D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B61BEC2E75000C0D6E /* Assets.xcassets */; };
 		629F68BA1BEC2E75000C0D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */; };
@@ -25,6 +33,14 @@
 		35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		54D776E80FED705FAA436312 /* Pods-HackaPoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.debug.xcconfig"; sourceTree = "<group>"; };
+		621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileContactTableViewCell.swift; sourceTree = "<group>"; };
+		621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileContactTableViewCell.xib; sourceTree = "<group>"; };
+		621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileInterestTableViewCell.swift; sourceTree = "<group>"; };
+		621B5A2C1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileInterestTableViewCell.xib; sourceTree = "<group>"; };
+		621B5A2D1BEC714800486CCE /* InstitutionProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileViewController.swift; sourceTree = "<group>"; };
+		621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileViewController.xib; sourceTree = "<group>"; };
+		621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntitutionsViewController.swift; sourceTree = "<group>"; };
+		621B5A301BEC714800486CCE /* IntitutionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntitutionsViewController.xib; sourceTree = "<group>"; };
 		629F68AC1BEC2E75000C0D6E /* HackaPoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaPoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		629F68B61BEC2E75000C0D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,14 +95,22 @@
 			isa = PBXGroup;
 			children = (
 				629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */,
-				3591B7191BEC48F900533A0A /* VolunteerProfileViewController.swift */,
-				3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */,
+				629F68B61BEC2E75000C0D6E /* Assets.xcassets */,
+				357E824C1BEC43F0004248D4 /* HackaPoA-Bridging-Header.h */,
+				629F68BB1BEC2E75000C0D6E /* Info.plist */,
+				621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */,
+				621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */,
+				621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */,
+				621B5A2C1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.xib */,
+				621B5A2D1BEC714800486CCE /* InstitutionProfileViewController.swift */,
+				621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */,
+				621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */,
+				621B5A301BEC714800486CCE /* IntitutionsViewController.xib */,
+				629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */,
 				35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */,
 				35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */,
-				629F68B61BEC2E75000C0D6E /* Assets.xcassets */,
-				629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */,
-				629F68BB1BEC2E75000C0D6E /* Info.plist */,
-				357E824C1BEC43F0004248D4 /* HackaPoA-Bridging-Header.h */,
+				3591B7191BEC48F900533A0A /* VolunteerProfileViewController.swift */,
+				3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */,
 			);
 			path = HackaPoA;
 			sourceTree = "<group>";
@@ -112,6 +136,7 @@
 				629F68A91BEC2E75000C0D6E /* Frameworks */,
 				629F68AA1BEC2E75000C0D6E /* Resources */,
 				4A89DD816BB61FBCB6F0898A /* Copy Pods Resources */,
+				E6B9049CA2AF22C616A4F619 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,8 +187,12 @@
 			files = (
 				629F68BA1BEC2E75000C0D6E /* LaunchScreen.storyboard in Resources */,
 				629F68B71BEC2E75000C0D6E /* Assets.xcassets in Resources */,
+				621B5A361BEC714800486CCE /* InstitutionProfileViewController.xib in Resources */,
+				621B5A341BEC714800486CCE /* InstitutionProfileInterestTableViewCell.xib in Resources */,
 				3591B71C1BEC48F900533A0A /* VolunteerProfileViewController.xib in Resources */,
 				35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */,
+				621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */,
+				621B5A381BEC714800486CCE /* IntitutionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +229,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E6B9049CA2AF22C616A4F619 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -207,7 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */,
 				35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */,
+				621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */,
+				621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */,
+				621B5A351BEC714800486CCE /* InstitutionProfileViewController.swift in Sources */,
 				3591B71B1BEC48F900533A0A /* VolunteerProfileViewController.swift in Sources */,
 				629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */,
 			);
@@ -314,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HackaPoA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -330,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HackaPoA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
