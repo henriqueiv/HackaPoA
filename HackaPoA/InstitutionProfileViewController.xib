@@ -37,8 +37,8 @@
                     <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7yA-Yn-gYH">
-                    <rect key="frame" x="0.0" y="250" width="375" height="417"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7yA-Yn-gYH">
+                    <rect key="frame" x="0.0" y="250" width="375" height="308"/>
                     <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
@@ -50,6 +50,30 @@
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRF-1E-nQJ">
+                    <rect key="frame" x="246" y="623" width="79" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Instituições"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VX1-EB-twP">
+                    <rect key="frame" x="187" y="618" width="1" height="40"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="4t1-ox-cfQ"/>
+                        <constraint firstAttribute="height" constant="40" id="lXe-er-jnC"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5my-Fm-Yja">
+                    <rect key="frame" x="55" y="623" width="70" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Meu perfil"/>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vo5-e0-QmH">
+                    <rect key="frame" x="0.0" y="609" width="375" height="1"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,6 +87,8 @@
                 <constraint firstItem="7yA-Yn-gYH" firstAttribute="top" secondItem="qld-zH-Wq3" secondAttribute="bottom" id="SnT-v9-2B7"/>
                 <constraint firstItem="qld-zH-Wq3" firstAttribute="leading" secondItem="k93-sw-WVr" secondAttribute="leading" id="cxX-yI-vbu"/>
                 <constraint firstItem="k93-sw-WVr" firstAttribute="top" secondItem="9SB-Tx-4Oc" secondAttribute="top" id="dVU-14-ci4"/>
+                <constraint firstItem="VX1-EB-twP" firstAttribute="centerX" secondItem="9SB-Tx-4Oc" secondAttribute="centerX" id="fAl-dg-4YT"/>
+                <constraint firstAttribute="bottom" secondItem="VX1-EB-twP" secondAttribute="bottom" constant="9" id="nfX-Py-ywA"/>
                 <constraint firstItem="qld-zH-Wq3" firstAttribute="bottom" secondItem="k93-sw-WVr" secondAttribute="bottom" id="nmy-52-2Kt"/>
                 <constraint firstItem="7yA-Yn-gYH" firstAttribute="leading" secondItem="9SB-Tx-4Oc" secondAttribute="leading" id="qJc-g0-I0x"/>
             </constraints>
