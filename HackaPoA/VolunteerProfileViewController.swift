@@ -88,5 +88,9 @@ extension VolunteerProfileViewController: UITableViewDataSource, UITableViewDele
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let vc = IntitutionsViewController()
+        vc.title = sections[indexPath.section][indexPath.row + 1]
+        
+        self.navigationController!.setViewControllers([vc], animated: false)
     }
 }
