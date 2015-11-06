@@ -27,11 +27,13 @@ class IntitutionsViewController: UIViewController {
         tableView.tableFooterView = UIView()
         
         let test = Test()
+        SVProgressHUD.showWithStatus("Carregando instituições")
         test.listItems {
             self.institutions = test.itemList.sort({ (this, that) -> Bool in
                 (this.objectForKey("escola") as! String).localizedCaseInsensitiveCompare(that.objectForKey("escola") as! String) == NSComparisonResult.OrderedAscending
             })
             self.tableView.reloadData()
+            SVProgressHUD.dismiss()
         }
     }
 }
@@ -58,12 +60,10 @@ extension IntitutionsViewController:UITableViewDataSource{
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(institutions.count)
         return institutions.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//        print(indexPath)
         let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "InstitutionCell")
         
         let escola = institutions[indexPath.row].objectForKey("escola") as! String
