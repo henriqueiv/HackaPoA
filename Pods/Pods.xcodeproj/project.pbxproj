@@ -7,122 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DBD24411F182ADC2FB8C0E235684FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		220FCC2D7A097EF87973678C3BE8182E /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF54D99E424A19E1F15947CED054F503 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		273A30E9CF72625C995E5DCF89D5FCF9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC329076C14A11FF06E43B0696E5EA8 /* SVIndefiniteAnimatedView.m */; };
-		2F9B044D148C06BABB086CC1CA41458A /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD613F8BEB3CBC29D96CB855C48C8C /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C77D573C3AF799DD87A7241E0A4BBA0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
-		C9AAD87E9F8EE662B6A36BBBDEC30835 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AADE4F1E12EA3F55CE1C0D629551F6 /* SVProgressHUD-dummy.m */; };
-		D07D48A2ABD3B0A4E04A6DE6E3E9F804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		E6CFDFB1CB9521CEA758510B352C6DA8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B563E7EEE4D53454A2421189C136C2C1 /* SVProgressHUD.m */; };
-		FA90F1F86F3514E8E73A75036B706972 /* Pods-HackaPoA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E9E654EC1B78A99AE1816A56D4A87A /* Pods-HackaPoA-dummy.m */; };
+		10C0E263D6CF2030D8990EB1088B835E /* Pods-HackaPoA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE593F76E1B6571A3B0E2F09F3A28B9D /* Pods-HackaPoA-dummy.m */; };
+		1B85F604AABD119558302D1A3BD2DFBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
+		27C613CD8F0D5500013A024E4636F20C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */; };
+		2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
+		317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */; };
+		7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */; };
+		89F05D147E1D3780837633BB16691C53 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */; };
+		B0D42E3798828F3B0DFEAE2E8C0A9D5F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */; };
+		F5ABA31CD2179D1EE0FC3F7183438E56 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F53FCA20832749FBEE28FB73F5F87DFB /* PBXContainerItemProxy */ = {
+		9311032BE55B24B8AF52952B0BFD056B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A46A45182A276B460F71DC873F4013B8;
+			remoteGlobalIDString = B281DA29A9C3EDFB45BA53651F6BA611;
 			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		003248B5E141091389EE0D093696CD72 /* IBMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMLogger.h; path = IBMBluemix.framework/Versions/A/Headers/IBMLogger.h; sourceTree = "<group>"; };
+		004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		0203D7090EF4233370C2CDE444B40A8E /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = IBMBluemix.framework/Versions/A/Headers/BoltsVersion.h; sourceTree = "<group>"; };
+		03B960EE8C30DC89F6A1605C5789C5BB /* Pods-HackaPoA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackaPoA-resources.sh"; sourceTree = "<group>"; };
 		0414ABC8C59F50381C5CEF3BF920AB45 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = IBMBluemix.framework/Versions/A/Headers/BFTaskCompletionSource.h; sourceTree = "<group>"; };
-		0A2D7BC6A432009E2472D4EAD7203BA4 /* IBMPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMPolygon.h; path = IBMData.framework/Versions/A/Headers/IBMPolygon.h; sourceTree = "<group>"; };
-		0AD3BBA07A3C556BA9AF29782F76C3F7 /* IBMData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMData.h; path = IBMData.framework/Versions/A/Headers/IBMData.h; sourceTree = "<group>"; };
+		0439CACA3524A254053DDEE02315D324 /* Pods-HackaPoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaPoA.release.xcconfig"; sourceTree = "<group>"; };
 		0CC5EB207979F110E85AB76F233B5579 /* IBMBluemixService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMBluemixService.h; path = IBMBluemix.framework/Versions/A/Headers/IBMBluemixService.h; sourceTree = "<group>"; };
+		13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4F840383D39CD7507AE97E9FE79616 /* IBMLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMLocationProvider.h; path = IBMBluemix.framework/Versions/A/Headers/IBMLocationProvider.h; sourceTree = "<group>"; };
 		1B7A8EDEECF137356D16FF84FE5DE2D5 /* IBMDataClientManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataClientManager.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataClientManager.h; sourceTree = "<group>"; };
+		1BDD06FB9C7CD8E268DFAC026AA32507 /* IBMGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMGeometry.h; path = IBMData.framework/Versions/A/Headers/IBMGeometry.h; sourceTree = "<group>"; };
+		1F61351B2C522B6375DD8AE1E3775586 /* Pods-HackaPoA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackaPoA-acknowledgements.markdown"; sourceTree = "<group>"; };
 		22205A15BCCAF4451A92F9FD06A64998 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = IBMBluemix.framework/Versions/A/Headers/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
-		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2AF6787192A5732A762848B9E32EAFF5 /* IBMQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMQuery.h; path = IBMData.framework/Versions/A/Headers/IBMQuery.h; sourceTree = "<group>"; };
+		248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		27F53A74A4956B6666100C5E2FD7E685 /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		28A56B08830F47FA22A4D7D3A9BFF7A4 /* IBMDataObject+Specialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IBMDataObject+Specialize.h"; path = "IBMData.framework/Versions/A/Headers/IBMDataObject+Specialize.h"; sourceTree = "<group>"; };
 		2B34203E6EAFB1BED3862A3EBFE82D68 /* IBMDataStorageProviderConnectCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataStorageProviderConnectCallback.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataStorageProviderConnectCallback.h; sourceTree = "<group>"; };
-		2E15FE0185AA73AC2BFEEA92D37D2097 /* Pods-HackaPoA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackaPoA-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E972B065CF9AC6F8B55FF07F88C1998 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
 		3593C7060CCFDBC5865CC6D08884EE9D /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = IBMBluemix.framework/Versions/A/Headers/Bolts.h; sourceTree = "<group>"; };
-		3BCDE7AE935FD72AEFAA0B387DE2D72B /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC0EB56DC0E75D55FEFEDEF97D6BE42 /* IBMDataFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataFile.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataFile.h; sourceTree = "<group>"; };
-		44CD80A7E7C9D3F9BF016247B44083D9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		3EC74057C90B65CCAB96638A8BA0CE53 /* IBMQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMQuery.h; path = IBMData.framework/Versions/A/Headers/IBMQuery.h; sourceTree = "<group>"; };
+		421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43130537AB496F85E57AE20B87B5373D /* libPods-HackaPoA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaPoA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CD7A7B071BAAC615FAB21D82759094 /* IBMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMUser.h; path = IBMData.framework/Versions/A/Headers/IBMUser.h; sourceTree = "<group>"; };
 		4B089B3A6C054D873B4C326188A9C089 /* IBMCurrentDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMCurrentDevice.h; path = IBMBluemix.framework/Versions/A/Headers/IBMCurrentDevice.h; sourceTree = "<group>"; };
-		4B27FBED3B6F29F7F2D935147DD37402 /* Pods-HackaPoA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackaPoA-frameworks.sh"; sourceTree = "<group>"; };
 		4D1DFBB90D9A120CD68F3329136B74FB /* IBMCurrentUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMCurrentUser.h; path = IBMBluemix.framework/Versions/A/Headers/IBMCurrentUser.h; sourceTree = "<group>"; };
-		4DC329076C14A11FF06E43B0696E5EA8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		4EC37575BD6C814660C1FA0CA6871DB2 /* IBMBluemixConfig_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMBluemixConfig_Internal.h; path = IBMBluemix.framework/Versions/A/Headers/IBMBluemixConfig_Internal.h; sourceTree = "<group>"; };
 		51C8E96AB957A49E913F27BCB5F1867E /* IBMDataFileSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataFileSystem.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataFileSystem.h; sourceTree = "<group>"; };
 		538F891454F118F5C89E1BB779360063 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = IBMBluemix.framework/Versions/A/Headers/BFURL.h; sourceTree = "<group>"; };
-		55C7EE9FF5B61C85ADAD550633F715F5 /* IBMDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataConstants.h; path = IBMData.framework/Versions/A/Headers/IBMDataConstants.h; sourceTree = "<group>"; };
-		55FD613F8BEB3CBC29D96CB855C48C8C /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		54F99FE48F35D71EA004183E797C4529 /* IBMData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMData.h; path = IBMData.framework/Versions/A/Headers/IBMData.h; sourceTree = "<group>"; };
 		5A8157653C41CB5CDDA6DD43ABAA8B83 /* IBMFileSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMFileSync.h; path = IBMFileSync.framework/Versions/A/Headers/IBMFileSync.h; sourceTree = "<group>"; };
 		5D4CB06FDD70DA5EC72752BE595E6536 /* IBMMutableHttpRequest_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMMutableHttpRequest_Internal.h; path = IBMBluemix.framework/Versions/A/Headers/IBMMutableHttpRequest_Internal.h; sourceTree = "<group>"; };
 		67476593A2C0693413507949FF7E065A /* IMFCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMFCore.framework; path = Frameworks/IMFCore.framework; sourceTree = "<group>"; };
-		6C21479286230A7F1C5E3A6F67A67EE4 /* IBMDataObject+Specialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IBMDataObject+Specialize.h"; path = "IBMData.framework/Versions/A/Headers/IBMDataObject+Specialize.h"; sourceTree = "<group>"; };
 		704E1FE8AF0A0BFB1969E84FB020D7C3 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = IBMBluemix.framework/Versions/A/Headers/BFExecutor.h; sourceTree = "<group>"; };
-		74AE55343A63B25C50758FAB5935BDEC /* libPods-HackaPoA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaPoA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		754D531576C8EFC1D305C806FFFF5520 /* IBMHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMHttpResponse.h; path = IBMBluemix.framework/Versions/A/Headers/IBMHttpResponse.h; sourceTree = "<group>"; };
-		93CC3C5D8A7DE3DCF102738EACC5282E /* Pods-HackaPoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaPoA.debug.xcconfig"; sourceTree = "<group>"; };
+		7D6B0A42B0FCDB968B675EB51E3620BF /* IBMLinearRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMLinearRing.h; path = IBMData.framework/Versions/A/Headers/IBMLinearRing.h; sourceTree = "<group>"; };
 		93E77F252F855EF8A8A0FF0C3602B22E /* IBMHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMHttpRequest.h; path = IBMBluemix.framework/Versions/A/Headers/IBMHttpRequest.h; sourceTree = "<group>"; };
-		98642F16C4D5C03221CACAA3B58E122C /* IBMPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMPosition.h; path = IBMData.framework/Versions/A/Headers/IBMPosition.h; sourceTree = "<group>"; };
-		9C6569EE8264AD77173E7BB9D0AD24B1 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		A051A933EFC2CE59C6DCE3B7129F9678 /* Pods-HackaPoA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackaPoA-resources.sh"; sourceTree = "<group>"; };
+		A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		A960DA27294C3ACE475B53B97995ABA4 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLinkTarget.h; sourceTree = "<group>"; };
 		AB7DB390E385AADE8BBF9AF1ED91E91C /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLinkResolving.h; sourceTree = "<group>"; };
+		AC06FEE7A19D0C245ABC57CC27F74D42 /* IBMPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMPolygon.h; path = IBMData.framework/Versions/A/Headers/IBMPolygon.h; sourceTree = "<group>"; };
 		AD5AEC13746F81B7159174BD086C4C33 /* IBMDataDefaultStorageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataDefaultStorageProvider.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataDefaultStorageProvider.h; sourceTree = "<group>"; };
-		AF54D99E424A19E1F15947CED054F503 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		AE593F76E1B6571A3B0E2F09F3A28B9D /* Pods-HackaPoA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackaPoA-dummy.m"; sourceTree = "<group>"; };
 		B051D30583AFD445EFE9BF21CBF4EEA5 /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLink.h; sourceTree = "<group>"; };
-		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		B274D953C8D47AFE761A87794BDD5DFE /* IBMDataClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataClient.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataClient.h; sourceTree = "<group>"; };
-		B44A45BCDA1F3FF6E1F85AE8F094AC08 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		B563E7EEE4D53454A2421189C136C2C1 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		B7EC7E859FAD940BA2D2688E45B217AE /* IBMGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMGeometry.h; path = IBMData.framework/Versions/A/Headers/IBMGeometry.h; sourceTree = "<group>"; };
+		B7936131F4269B2A0F9FDE2E0035AB2D /* IBMPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMPoint.h; path = IBMData.framework/Versions/A/Headers/IBMPoint.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEA0FE3FCA095A81C2151C91DE50FFA2 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		BF120F3DA02040E45769D6BF601B4AD5 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLinkNavigation.h; sourceTree = "<group>"; };
 		C0D436FD6C75DED3EC2C7C7983A85E0E /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
-		C0E9E654EC1B78A99AE1816A56D4A87A /* Pods-HackaPoA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackaPoA-dummy.m"; sourceTree = "<group>"; };
 		C2EDD1EB1146B996C22BD39E033C078B /* IBMHttpError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMHttpError.h; path = IBMBluemix.framework/Versions/A/Headers/IBMHttpError.h; sourceTree = "<group>"; };
 		C5A8711EC90BD3962A9246F8FE80C7EB /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = IBMBluemix.framework/Versions/A/Headers/BFTask.h; sourceTree = "<group>"; };
 		C5EE6EEF3D4978F921582E29FBEAA205 /* IBMMutableHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMMutableHttpRequest.h; path = IBMBluemix.framework/Versions/A/Headers/IBMMutableHttpRequest.h; sourceTree = "<group>"; };
-		CB0AD76E569C554B1FC0AB0E55A7C7BA /* IBMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMUser.h; path = IBMData.framework/Versions/A/Headers/IBMUser.h; sourceTree = "<group>"; };
-		CD978044E96AFE612CF1CB0A37CCC257 /* IBMDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataObject.h; path = IBMData.framework/Versions/A/Headers/IBMDataObject.h; sourceTree = "<group>"; };
-		CED021E165B4606573DF6CD75C4BCA2D /* Pods-HackaPoA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackaPoA-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0AADE4F1E12EA3F55CE1C0D629551F6 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		D40587BC603923FB3DB7BBA537B1B321 /* IBMLinearRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMLinearRing.h; path = IBMData.framework/Versions/A/Headers/IBMLinearRing.h; sourceTree = "<group>"; };
+		CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		CBD531CDE27C56734E52F61E425DF167 /* IBMPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMPosition.h; path = IBMData.framework/Versions/A/Headers/IBMPosition.h; sourceTree = "<group>"; };
+		D12CA22FE438E9AC72975A4949FAF7B8 /* IBMDataRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataRelation.h; path = IBMData.framework/Versions/A/Headers/IBMDataRelation.h; sourceTree = "<group>"; };
 		D4C047EF04746C35A836CAB9672B65A0 /* IBMBluemix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMBluemix.h; path = IBMBluemix.framework/Versions/A/Headers/IBMBluemix.h; sourceTree = "<group>"; };
+		D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		D7264DF0737BFE6AF445083E12AC3675 /* Pods-HackaPoA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackaPoA-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA892B2C0A9EC52A0A6160F93FE2F7B1 /* IBMLineString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMLineString.h; path = IBMData.framework/Versions/A/Headers/IBMLineString.h; sourceTree = "<group>"; };
 		DCCBF1580D2919FC15023E706B055D59 /* IBMDataConnectionParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataConnectionParams.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataConnectionParams.h; sourceTree = "<group>"; };
+		E3B8A812B395136FFBE55E628E5EF739 /* IBMDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataObject.h; path = IBMData.framework/Versions/A/Headers/IBMDataObject.h; sourceTree = "<group>"; };
 		E3BB92B38EB9473B6C6722DF95EE349D /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = IBMBluemix.framework/Versions/A/Headers/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
 		E4B3229135C583077970B5E17372D6E3 /* IBMDataErrorCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataErrorCategories.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataErrorCategories.h; sourceTree = "<group>"; };
 		E4D9C12FA077F6F8C4D2348A5D035212 /* IBMDataStorageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataStorageProvider.h; path = IBMFileSync.framework/Versions/A/Headers/IBMDataStorageProvider.h; sourceTree = "<group>"; };
-		E54DE92556C4B57D8E77735A09C1A9F0 /* Pods-HackaPoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaPoA.release.xcconfig"; sourceTree = "<group>"; };
-		E7BB4E05B62807BAFF1076551F8A5807 /* IBMLineString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMLineString.h; path = IBMData.framework/Versions/A/Headers/IBMLineString.h; sourceTree = "<group>"; };
-		EBF157E6F120027841992BDFCE454F1E /* IBMPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMPoint.h; path = IBMData.framework/Versions/A/Headers/IBMPoint.h; sourceTree = "<group>"; };
+		E4DEC444F6499B4BDFDC2BBA3B54C485 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E4ED636A3AF79800C27A4118BDA0724C /* IBMDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataConstants.h; path = IBMData.framework/Versions/A/Headers/IBMDataConstants.h; sourceTree = "<group>"; };
+		EA24C645A733D3310C448D4D5E4D00A7 /* Pods-HackaPoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackaPoA.debug.xcconfig"; sourceTree = "<group>"; };
 		F3239E94185AA3811D49053FDB5E1496 /* IBMBluemixConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMBluemixConfig.h; path = IBMBluemix.framework/Versions/A/Headers/IBMBluemixConfig.h; sourceTree = "<group>"; };
-		F40EC3098B890F883EAF37A31100DBEA /* IBMDataRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBMDataRelation.h; path = IBMData.framework/Versions/A/Headers/IBMDataRelation.h; sourceTree = "<group>"; };
+		FBA7D8FD632522F5745CF6E8113F00DC /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		702B981834E8CD0D0C776AB607DAAC72 /* Frameworks */ = {
+		383B4BF839254A82265A1E6D540C9F3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07D48A2ABD3B0A4E04A6DE6E3E9F804 /* Foundation.framework in Frameworks */,
+				2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */,
+				317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6A7E7C86EE8AFFA9B0811F9A1657F3 /* Frameworks */ = {
+		CE48635FDB780CC3F54DC56B71CCCAF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DBD24411F182ADC2FB8C0E235684FAF /* Foundation.framework in Frameworks */,
-				3C77D573C3AF799DD87A7241E0A4BBA0 /* QuartzCore.framework in Frameworks */,
+				1B85F604AABD119558302D1A3BD2DFBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */,
+				248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		107B156C67C4F197A116685FFE09AE28 /* IBMFileSync */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +149,26 @@
 			path = IBMFileSync;
 			sourceTree = "<group>";
 		};
+		2CA657F76335FCBE4B8C383177F7BBFA /* IBMData */ = {
+			isa = PBXGroup;
+			children = (
+				54F99FE48F35D71EA004183E797C4529 /* IBMData.h */,
+				E4ED636A3AF79800C27A4118BDA0724C /* IBMDataConstants.h */,
+				E3B8A812B395136FFBE55E628E5EF739 /* IBMDataObject.h */,
+				28A56B08830F47FA22A4D7D3A9BFF7A4 /* IBMDataObject+Specialize.h */,
+				D12CA22FE438E9AC72975A4949FAF7B8 /* IBMDataRelation.h */,
+				1BDD06FB9C7CD8E268DFAC026AA32507 /* IBMGeometry.h */,
+				DA892B2C0A9EC52A0A6160F93FE2F7B1 /* IBMLineString.h */,
+				7D6B0A42B0FCDB968B675EB51E3620BF /* IBMLinearRing.h */,
+				B7936131F4269B2A0F9FDE2E0035AB2D /* IBMPoint.h */,
+				AC06FEE7A19D0C245ABC57CC27F74D42 /* IBMPolygon.h */,
+				CBD531CDE27C56734E52F61E425DF167 /* IBMPosition.h */,
+				3EC74057C90B65CCAB96638A8BA0CE53 /* IBMQuery.h */,
+				47CD7A7B071BAAC615FAB21D82759094 /* IBMUser.h */,
+			);
+			path = IBMData;
+			sourceTree = "<group>";
+		};
 		2D467EBB9A44BAD3DC37089A8873C8A3 /* IMFCore */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,77 +177,24 @@
 			path = IMFCore;
 			sourceTree = "<group>";
 		};
-		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+		3BB86CCD204DFB4084CE99108149C406 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
-				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+				FBA7D8FD632522F5745CF6E8113F00DC /* SVProgressHUD.xcconfig */,
+				27F53A74A4956B6666100C5E2FD7E685 /* SVProgressHUD-Private.xcconfig */,
+				FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */,
+				E4DEC444F6499B4BDFDC2BBA3B54C485 /* SVProgressHUD-prefix.pch */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		3E5C66BD18043439021D390EC8EC8ED2 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				AF54D99E424A19E1F15947CED054F503 /* SVIndefiniteAnimatedView.h */,
-				4DC329076C14A11FF06E43B0696E5EA8 /* SVIndefiniteAnimatedView.m */,
-				55FD613F8BEB3CBC29D96CB855C48C8C /* SVProgressHUD.h */,
-				B563E7EEE4D53454A2421189C136C2C1 /* SVProgressHUD.m */,
-				70521881BCE28945FD3838B3EF257DA5 /* Resources */,
-				7ADF18671D12341587F83B8CB00D9D1E /* Support Files */,
-			);
-			path = SVProgressHUD;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3926C638AD0708942C88C2BC89261735 /* iOS */,
+				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5DCC284D2F1941D001297791C89DFC68 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				74AE55343A63B25C50758FAB5935BDEC /* libPods-HackaPoA.a */,
-				3BCDE7AE935FD72AEFAA0B387DE2D72B /* libSVProgressHUD.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5EBA24C11277499F2E2A2BA3749BC2AF /* Pods-HackaPoA */ = {
-			isa = PBXGroup;
-			children = (
-				2E15FE0185AA73AC2BFEEA92D37D2097 /* Pods-HackaPoA-acknowledgements.markdown */,
-				CED021E165B4606573DF6CD75C4BCA2D /* Pods-HackaPoA-acknowledgements.plist */,
-				C0E9E654EC1B78A99AE1816A56D4A87A /* Pods-HackaPoA-dummy.m */,
-				4B27FBED3B6F29F7F2D935147DD37402 /* Pods-HackaPoA-frameworks.sh */,
-				A051A933EFC2CE59C6DCE3B7129F9678 /* Pods-HackaPoA-resources.sh */,
-				93CC3C5D8A7DE3DCF102738EACC5282E /* Pods-HackaPoA.debug.xcconfig */,
-				E54DE92556C4B57D8E77735A09C1A9F0 /* Pods-HackaPoA.release.xcconfig */,
-			);
-			name = "Pods-HackaPoA";
-			path = "Target Support Files/Pods-HackaPoA";
-			sourceTree = "<group>";
-		};
-		70521881BCE28945FD3838B3EF257DA5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B44A45BCDA1F3FF6E1F85AE8F094AC08 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7ADF18671D12341587F83B8CB00D9D1E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C6569EE8264AD77173E7BB9D0AD24B1 /* SVProgressHUD.xcconfig */,
-				D0AADE4F1E12EA3F55CE1C0D629551F6 /* SVProgressHUD-dummy.m */,
-				44CD80A7E7C9D3F9BF016247B44083D9 /* SVProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -227,49 +203,51 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				9B7A822D32C26A1AF2143872D170AA21 /* Pods */,
-				5DCC284D2F1941D001297791C89DFC68 /* Products */,
-				D0D66260C3909D3207258FB8204687CE /* Targets Support Files */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				E91CB01AB41B7049601097EE47B030FE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		83F6672037FD445B70504B86340412DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0FE3FCA095A81C2151C91DE50FFA2 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9B7A822D32C26A1AF2143872D170AA21 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D76F981DAC273CA1330D9D19303F5BA7 /* IBMBluemix */,
-				AC6B42184E1225CFEC25ED0E4B1CAB27 /* IBMData */,
+				2CA657F76335FCBE4B8C383177F7BBFA /* IBMData */,
 				107B156C67C4F197A116685FFE09AE28 /* IBMFileSync */,
 				2D467EBB9A44BAD3DC37089A8873C8A3 /* IMFCore */,
-				3E5C66BD18043439021D390EC8EC8ED2 /* SVProgressHUD */,
+				D47C8FAA50EEF7ACC6167D955AC7769F /* SVProgressHUD */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AC6B42184E1225CFEC25ED0E4B1CAB27 /* IBMData */ = {
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AD3BBA07A3C556BA9AF29782F76C3F7 /* IBMData.h */,
-				55C7EE9FF5B61C85ADAD550633F715F5 /* IBMDataConstants.h */,
-				CD978044E96AFE612CF1CB0A37CCC257 /* IBMDataObject.h */,
-				6C21479286230A7F1C5E3A6F67A67EE4 /* IBMDataObject+Specialize.h */,
-				F40EC3098B890F883EAF37A31100DBEA /* IBMDataRelation.h */,
-				B7EC7E859FAD940BA2D2688E45B217AE /* IBMGeometry.h */,
-				D40587BC603923FB3DB7BBA537B1B321 /* IBMLinearRing.h */,
-				E7BB4E05B62807BAFF1076551F8A5807 /* IBMLineString.h */,
-				EBF157E6F120027841992BDFCE454F1E /* IBMPoint.h */,
-				0A2D7BC6A432009E2472D4EAD7203BA4 /* IBMPolygon.h */,
-				98642F16C4D5C03221CACAA3B58E122C /* IBMPosition.h */,
-				2AF6787192A5732A762848B9E32EAFF5 /* IBMQuery.h */,
-				CB0AD76E569C554B1FC0AB0E55A7C7BA /* IBMUser.h */,
+				43130537AB496F85E57AE20B87B5373D /* libPods-HackaPoA.a */,
+				13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */,
 			);
-			path = IBMData;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D0D66260C3909D3207258FB8204687CE /* Targets Support Files */ = {
+		D47C8FAA50EEF7ACC6167D955AC7769F /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				5EBA24C11277499F2E2A2BA3749BC2AF /* Pods-HackaPoA */,
+				CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */,
+				004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */,
+				D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */,
+				A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */,
+				83F6672037FD445B70504B86340412DF /* Resources */,
+				3BB86CCD204DFB4084CE99108149C406 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		D63E8D097D8FB6A64F044DB74E41893C /* Frameworks */ = {
@@ -314,28 +292,67 @@
 			path = IBMBluemix;
 			sourceTree = "<group>";
 		};
+		E57058F50199784FD823164B3E6B83EF /* Pods-HackaPoA */ = {
+			isa = PBXGroup;
+			children = (
+				1F61351B2C522B6375DD8AE1E3775586 /* Pods-HackaPoA-acknowledgements.markdown */,
+				D7264DF0737BFE6AF445083E12AC3675 /* Pods-HackaPoA-acknowledgements.plist */,
+				AE593F76E1B6571A3B0E2F09F3A28B9D /* Pods-HackaPoA-dummy.m */,
+				03B960EE8C30DC89F6A1605C5789C5BB /* Pods-HackaPoA-resources.sh */,
+				EA24C645A733D3310C448D4D5E4D00A7 /* Pods-HackaPoA.debug.xcconfig */,
+				0439CACA3524A254053DDEE02315D324 /* Pods-HackaPoA.release.xcconfig */,
+			);
+			name = "Pods-HackaPoA";
+			path = "Target Support Files/Pods-HackaPoA";
+			sourceTree = "<group>";
+		};
+		E91CB01AB41B7049601097EE47B030FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57058F50199784FD823164B3E6B83EF /* Pods-HackaPoA */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		60E09C11903FDA74E2D66DFF787F6021 /* Headers */ = {
+		A6E03BC82D209DE558C3932FF43FC1F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220FCC2D7A097EF87973678C3BE8182E /* SVIndefiniteAnimatedView.h in Headers */,
-				2F9B044D148C06BABB086CC1CA41458A /* SVProgressHUD.h in Headers */,
+				89F05D147E1D3780837633BB16691C53 /* SVIndefiniteAnimatedView.h in Headers */,
+				B0D42E3798828F3B0DFEAE2E8C0A9D5F /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A46A45182A276B460F71DC873F4013B8 /* SVProgressHUD */ = {
+		A23CFE4914D866383E993433AF2651BF /* Pods-HackaPoA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C562C9B69E87EC9BBBCDF8102EFE8D13 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 8309B48C87FE7BF9A7118F2125C88F1C /* Build configuration list for PBXNativeTarget "Pods-HackaPoA" */;
 			buildPhases = (
-				DE318875FCC28B96BE77B1D4689E71B8 /* Sources */,
-				FF6A7E7C86EE8AFFA9B0811F9A1657F3 /* Frameworks */,
-				60E09C11903FDA74E2D66DFF787F6021 /* Headers */,
+				FE5C38900AEEA15A63ED9C61FA3C8302 /* Sources */,
+				CE48635FDB780CC3F54DC56B71CCCAF8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D68F18AB563D79468A50EBD37984BFF /* PBXTargetDependency */,
+			);
+			name = "Pods-HackaPoA";
+			productName = "Pods-HackaPoA";
+			productReference = 43130537AB496F85E57AE20B87B5373D /* libPods-HackaPoA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B10C8D8BC6346D953E0D2DDABC63F3E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				3D0E2D1B45261FB1DAC837B020C4EC01 /* Sources */,
+				383B4BF839254A82265A1E6D540C9F3F /* Frameworks */,
+				A6E03BC82D209DE558C3932FF43FC1F2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,24 +360,7 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 3BCDE7AE935FD72AEFAA0B387DE2D72B /* libSVProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C7D38A47070B9AD8FC3968E69B231EC8 /* Pods-HackaPoA */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22C4CA03A13827F3E3BABD53F747793A /* Build configuration list for PBXNativeTarget "Pods-HackaPoA" */;
-			buildPhases = (
-				6D7EA499F8986F5CF70B05DA7D7AF6BD /* Sources */,
-				702B981834E8CD0D0C776AB607DAAC72 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2DF8E3F151075C0850E0B4697B31EBD /* PBXTargetDependency */,
-			);
-			name = "Pods-HackaPoA";
-			productName = "Pods-HackaPoA";
-			productReference = 74AE55343A63B25C50758FAB5935BDEC /* libPods-HackaPoA.a */;
+			productReference = 13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -380,60 +380,74 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5DCC284D2F1941D001297791C89DFC68 /* Products */;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7D38A47070B9AD8FC3968E69B231EC8 /* Pods-HackaPoA */,
-				A46A45182A276B460F71DC873F4013B8 /* SVProgressHUD */,
+				A23CFE4914D866383E993433AF2651BF /* Pods-HackaPoA */,
+				B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D7EA499F8986F5CF70B05DA7D7AF6BD /* Sources */ = {
+		3D0E2D1B45261FB1DAC837B020C4EC01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA90F1F86F3514E8E73A75036B706972 /* Pods-HackaPoA-dummy.m in Sources */,
+				7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */,
+				F5ABA31CD2179D1EE0FC3F7183438E56 /* SVProgressHUD-dummy.m in Sources */,
+				27C613CD8F0D5500013A024E4636F20C /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE318875FCC28B96BE77B1D4689E71B8 /* Sources */ = {
+		FE5C38900AEEA15A63ED9C61FA3C8302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273A30E9CF72625C995E5DCF89D5FCF9 /* SVIndefiniteAnimatedView.m in Sources */,
-				C9AAD87E9F8EE662B6A36BBBDEC30835 /* SVProgressHUD-dummy.m in Sources */,
-				E6CFDFB1CB9521CEA758510B352C6DA8 /* SVProgressHUD.m in Sources */,
+				10C0E263D6CF2030D8990EB1088B835E /* Pods-HackaPoA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F2DF8E3F151075C0850E0B4697B31EBD /* PBXTargetDependency */ = {
+		5D68F18AB563D79468A50EBD37984BFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = A46A45182A276B460F71DC873F4013B8 /* SVProgressHUD */;
-			targetProxy = F53FCA20832749FBEE28FB73F5F87DFB /* PBXContainerItemProxy */;
+			target = B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */;
+			targetProxy = 9311032BE55B24B8AF52952B0BFD056B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4590781377F9592CDD298D350666DDBC /* Release */ = {
+		025BF42AC553FEE30E6B0A527DDC490D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C6569EE8264AD77173E7BB9D0AD24B1 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 27F53A74A4956B6666100C5E2FD7E685 /* SVProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C05F17E66497B7B371F36A64E3673F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0439CACA3524A254053DDEE02315D324 /* Pods-HackaPoA.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -512,70 +526,41 @@
 			};
 			name = Release;
 		};
-		9BA8D3FF29A2B3DC20E04C9AA3EC5BBA /* Debug */ = {
+		8FA0D500584504EFD8879C14F21B359F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C6569EE8264AD77173E7BB9D0AD24B1 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = EA24C645A733D3310C448D4D5E4D00A7 /* Pods-HackaPoA.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A510682C6B5729732BD1C2ACAD5EB146 /* Release */ = {
+		E67C1F26F93DE06F40DEC901E89A82BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E54DE92556C4B57D8E77735A09C1A9F0 /* Pods-HackaPoA.release.xcconfig */;
+			baseConfigurationReference = 27F53A74A4956B6666100C5E2FD7E685 /* SVProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		F2F72545AC8D82828E82D4DE8A7D5DA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93CC3C5D8A7DE3DCF102738EACC5282E /* Pods-HackaPoA.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22C4CA03A13827F3E3BABD53F747793A /* Build configuration list for PBXNativeTarget "Pods-HackaPoA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2F72545AC8D82828E82D4DE8A7D5DA7 /* Debug */,
-				A510682C6B5729732BD1C2ACAD5EB146 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -585,11 +570,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C562C9B69E87EC9BBBCDF8102EFE8D13 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		6B10C8D8BC6346D953E0D2DDABC63F3E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BA8D3FF29A2B3DC20E04C9AA3EC5BBA /* Debug */,
-				4590781377F9592CDD298D350666DDBC /* Release */,
+				025BF42AC553FEE30E6B0A527DDC490D /* Debug */,
+				E67C1F26F93DE06F40DEC901E89A82BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8309B48C87FE7BF9A7118F2125C88F1C /* Build configuration list for PBXNativeTarget "Pods-HackaPoA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA0D500584504EFD8879C14F21B359F /* Debug */,
+				4C05F17E66497B7B371F36A64E3673F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

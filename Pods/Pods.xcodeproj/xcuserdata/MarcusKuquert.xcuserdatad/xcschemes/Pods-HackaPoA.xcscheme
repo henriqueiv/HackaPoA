@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39D564376EBAC0C1D5AA3F4C"
+               BlueprintIdentifier = "336A86A1DF62843E394DAE8C"
                BuildableName = "libPods-HackaPoA.a"
                BlueprintName = "Pods-HackaPoA"
                ReferencedContainer = "container:Pods.xcodeproj">
