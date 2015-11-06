@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D75BAF781EE248DF08CC59B /* libPods-HackaPoA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0823AE9EFF1929CE1D543A /* libPods-HackaPoA.a */; };
 		3591B71B1BEC48F900533A0A /* VolunteerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3591B7191BEC48F900533A0A /* VolunteerProfileViewController.swift */; };
 		3591B71C1BEC48F900533A0A /* VolunteerProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */; };
 		35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */; };
 		35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */; };
+		3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */; };
 		621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */; };
 		621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */; };
 		621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */; };
@@ -23,7 +25,6 @@
 		629F68B71BEC2E75000C0D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B61BEC2E75000C0D6E /* Assets.xcassets */; };
 		629F68BA1BEC2E75000C0D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */; };
 		62FF6F2B1BEC4575006DB96E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FF6F2A1BEC4575006DB96E /* libsqlite3.tbd */; };
-		8C2C560B76B2048DF777AF84 /* libPods-HackaPoA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00E7C6DDBBCBACCA474AFAB /* libPods-HackaPoA.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,8 @@
 		3591B71A1BEC48F900533A0A /* VolunteerProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolunteerProfileViewController.xib; sourceTree = "<group>"; };
 		35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
-		54D776E80FED705FAA436312 /* Pods-HackaPoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.debug.xcconfig"; sourceTree = "<group>"; };
+		3793D7672861FEF5CF786A2A /* Pods-HackaPoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.release.xcconfig"; sourceTree = "<group>"; };
+		3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instituicao.swift; sourceTree = "<group>"; };
 		621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileContactTableViewCell.swift; sourceTree = "<group>"; };
 		621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileContactTableViewCell.xib; sourceTree = "<group>"; };
 		621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstitutionProfileInterestTableViewCell.swift; sourceTree = "<group>"; };
@@ -47,8 +49,8 @@
 		629F68B91BEC2E75000C0D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		629F68BB1BEC2E75000C0D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62FF6F2A1BEC4575006DB96E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		83079516A2E0CA48A937C4C0 /* Pods-HackaPoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.release.xcconfig"; sourceTree = "<group>"; };
-		A00E7C6DDBBCBACCA474AFAB /* libPods-HackaPoA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaPoA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0823AE9EFF1929CE1D543A /* libPods-HackaPoA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackaPoA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB848DDE1A295DC1ED740447 /* Pods-HackaPoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackaPoA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,18 +59,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				62FF6F2B1BEC4575006DB96E /* libsqlite3.tbd in Frameworks */,
-				8C2C560B76B2048DF777AF84 /* libPods-HackaPoA.a in Frameworks */,
+				1D75BAF781EE248DF08CC59B /* libPods-HackaPoA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		408DEE288D574B48271C2EEC /* Pods */ = {
+		3DCBFF0D1BEC6E9D0098C555 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				54D776E80FED705FAA436312 /* Pods-HackaPoA.debug.xcconfig */,
-				83079516A2E0CA48A937C4C0 /* Pods-HackaPoA.release.xcconfig */,
+				3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		47BD156BAEDAEEAA4B890463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB848DDE1A295DC1ED740447 /* Pods-HackaPoA.debug.xcconfig */,
+				3793D7672861FEF5CF786A2A /* Pods-HackaPoA.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -78,8 +88,8 @@
 			children = (
 				629F68AE1BEC2E75000C0D6E /* HackaPoA */,
 				629F68AD1BEC2E75000C0D6E /* Products */,
-				408DEE288D574B48271C2EEC /* Pods */,
 				D46E326F0FC36A19496DC011 /* Frameworks */,
+				47BD156BAEDAEEAA4B890463 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +104,7 @@
 		629F68AE1BEC2E75000C0D6E /* HackaPoA */ = {
 			isa = PBXGroup;
 			children = (
+				3DCBFF0D1BEC6E9D0098C555 /* Models */,
 				629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */,
 				629F68B61BEC2E75000C0D6E /* Assets.xcassets */,
 				357E824C1BEC43F0004248D4 /* HackaPoA-Bridging-Header.h */,
@@ -119,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				62FF6F2A1BEC4575006DB96E /* libsqlite3.tbd */,
-				A00E7C6DDBBCBACCA474AFAB /* libPods-HackaPoA.a */,
+				7E0823AE9EFF1929CE1D543A /* libPods-HackaPoA.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,12 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 629F68BE1BEC2E75000C0D6E /* Build configuration list for PBXNativeTarget "HackaPoA" */;
 			buildPhases = (
-				77D6703EA468A903D046FD5B /* Check Pods Manifest.lock */,
+				049687720AABEFCE4E4E8731 /* Check Pods Manifest.lock */,
 				629F68A81BEC2E75000C0D6E /* Sources */,
 				629F68A91BEC2E75000C0D6E /* Frameworks */,
 				629F68AA1BEC2E75000C0D6E /* Resources */,
-				4A89DD816BB61FBCB6F0898A /* Copy Pods Resources */,
-				E6B9049CA2AF22C616A4F619 /* Embed Pods Frameworks */,
+				B15EB758162FADE7924CA625 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,22 +209,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4A89DD816BB61FBCB6F0898A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77D6703EA468A903D046FD5B /* Check Pods Manifest.lock */ = {
+		049687720AABEFCE4E4E8731 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,19 +224,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E6B9049CA2AF22C616A4F619 /* Embed Pods Frameworks */ = {
+		B15EB758162FADE7924CA625 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackaPoA/Pods-HackaPoA-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -252,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */,
+				3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */,
 				35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */,
 				621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */,
 				621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */,
@@ -358,7 +354,7 @@
 		};
 		629F68BF1BEC2E75000C0D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54D776E80FED705FAA436312 /* Pods-HackaPoA.debug.xcconfig */;
+			baseConfigurationReference = EB848DDE1A295DC1ED740447 /* Pods-HackaPoA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -375,7 +371,7 @@
 		};
 		629F68C01BEC2E75000C0D6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83079516A2E0CA48A937C4C0 /* Pods-HackaPoA.release.xcconfig */;
+			baseConfigurationReference = 3793D7672861FEF5CF786A2A /* Pods-HackaPoA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
