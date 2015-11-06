@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/IBMBluemix" "$(PODS_ROOT)/IBMData" "$(PODS_ROOT)/IBMFileSync" "$(PODS_ROOT)/IBMBluemix" "$(PODS_ROOT)/IBMData" "$(PODS_ROOT)/IBMFileSync" "$(PODS_ROOT)/IMFCore/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/IBMBluemix" "${PODS_ROOT}/Headers/Public/IBMData" "${PODS_ROOT}/Headers/Public/IBMFileSync" "${PODS_ROOT}/Headers/Public/IMFCore" "${PODS_ROOT}/Headers/Public/IMFCore/IMFCore" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/IBMBluemix" -isystem "${PODS_ROOT}/Headers/Public/IBMData" -isystem "${PODS_ROOT}/Headers/Public/IBMFileSync" -isystem "${PODS_ROOT}/Headers/Public/IMFCore" -isystem "${PODS_ROOT}/Headers/Public/IMFCore/IMFCore" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SVProgressHUD" -l"stdc++.6" -l"z" -framework "IBMBluemix" -framework "IBMData" -framework "IBMFileSync" -framework "IMFCore" -framework "QuartzCore"
+PODS_ROOT = ${SRCROOT}/Pods
