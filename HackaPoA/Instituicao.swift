@@ -8,6 +8,42 @@
 
 import Foundation
 
+class Test {
+    
+    var itemList:[Instituicao] = [Instituicao]()
+    
+    func runTest() {
+        self.listItems({
+            print (self.listItems)
+        })
+    }
+    
+    func listItems(callback:() -> Void)
+    {
+        
+        let qry = IBMQuery(forClass: "Instituicao")
+        qry.find().continueWithBlock{ task in
+            if((task.error()) != nil) {
+                print("listItems failed with error: %@", task.error)
+            } else {
+                self.itemList = []
+                if let result = task.result() as? NSArray {
+                    for i in 0..<result.count {
+                        print(result[i])
+                        if let item: Instituicao = result[i] as? Instituicao {
+                            self.itemList.append(item)
+                        }
+                    }
+                }
+                
+                callback()
+            }
+            return nil
+        }
+    }
+}
+
+
 class Instituicao: IBMDataObject,IBMDataObjectSpecialization {
     
     dynamic var telefone: String?
