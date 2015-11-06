@@ -18,9 +18,9 @@ class IntitutionsViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        let headerView = UIView(frame: CGRectMake(0,0,tableView.frame.size.width,1))
-        headerView.backgroundColor = UIColor ( red: 0.4667, green: 0.5137, blue: 0.549, alpha: 1.0 )
-        tableView.tableHeaderView = headerView
+//        let headerView = UIView(frame: CGRectMake(0,0,tableView.frame.size.width,1))
+//        headerView.backgroundColor = UIColor ( red: 0.4667, green: 0.5137, blue: 0.549, alpha: 1.0 )
+//        tableView.tableHeaderView = headerView
         
 //        let endpoint = "http://reddo-backend-hackaton.mybluemix.net/estaduais"
 //        let url = NSURL(string: endpoint)!
