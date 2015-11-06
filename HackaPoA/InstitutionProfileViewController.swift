@@ -18,10 +18,12 @@ class InstitutionProfileViewController: UIViewController {
         case Address, Phone, Email
     }
     
+    var shouldPresentBottomBar: Bool = false
     var institution:IBMDataObject!
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var bottomBar: UIView!
     
     @IBOutlet weak var institutionNameLabel: UILabel!
     let contactCellClassName = "InstitutionProfileContactTableViewCell"
@@ -48,6 +50,12 @@ class InstitutionProfileViewController: UIViewController {
         gradientLayer.startPoint = CGPointMake(0.5, 0.5)
         gradientLayer.endPoint = CGPointMake(1.0, 0.0)
         imageView.layer.addSublayer(gradientLayer)
+        
+        if shouldPresentBottomBar {
+            self.tableView.contentInset = UIEdgeInsetsMake(0, 0, CGRectGetHeight(self.bottomBar.frame), 0)
+        } else {
+            self.bottomBar.hidden = true
+        }
         
     }
     

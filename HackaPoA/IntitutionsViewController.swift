@@ -26,10 +26,11 @@ class IntitutionsViewController: UIViewController {
         tableView.delegate = self
         tableView.tableFooterView = UIView()
         
+        weak var welf: IntitutionsViewController! = self
         let test = Test()
         SVProgressHUD.showWithStatus("Carregando instituições")
         test.listItems {
-            self.institutions = test.itemList.sort({ (this, that) -> Bool in
+            welf.institutions = test.itemList.sort({ (this, that) -> Bool in
                 (this.objectForKey("escola") as! String).localizedCaseInsensitiveCompare(that.objectForKey("escola") as! String) == NSComparisonResult.OrderedAscending
             })
             self.tableView.reloadData()
@@ -43,6 +44,7 @@ extension IntitutionsViewController:UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         let vc = InstitutionProfileViewController()
+        vc.shouldPresentBottomBar = false
         vc.institution = self.institutions[indexPath.row]
         self.navigationController!.pushViewController(vc, animated: true)
     }
