@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import MapKit
+import MessageUI
 
 class InstitutionProfileViewController: UIViewController {
     
@@ -19,11 +21,13 @@ class InstitutionProfileViewController: UIViewController {
     }
     
     var shouldPresentBottomBar: Bool = false
+    var isInstitution = false
     var institution:IBMDataObject!
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bottomBar: UIView!
+    @IBOutlet weak var btnRight: UIButton!
     
     @IBOutlet weak var institutionNameLabel: UILabel!
     let contactCellClassName = "InstitutionProfileContactTableViewCell"
@@ -32,7 +36,11 @@ class InstitutionProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        institutionNameLabel.text = (institution.objectForKey("escola") as! String).capitalizedString
+        if institution != nil{
+            institutionNameLabel.text = (institution.objectForKey("escola") as! String).capitalizedString
+        }else{
+            institutionNameLabel.text = "EEEF América"
+        }
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -53,6 +61,11 @@ class InstitutionProfileViewController: UIViewController {
         
         if shouldPresentBottomBar {
             self.tableView.contentInset = UIEdgeInsetsMake(0, 0, CGRectGetHeight(self.bottomBar.frame), 0)
+            if isInstitution{
+                btnRight.setTitle("Voluntários", forState: UIControlState.Normal)
+            }else{
+                btnRight.setTitle("Instituições", forState: UIControlState.Normal)
+            }
         } else {
             self.bottomBar.hidden = true
         }
@@ -62,18 +75,84 @@ class InstitutionProfileViewController: UIViewController {
     @IBAction func btnBackTouched(sender: UIButton) {
         self.navigationController!.popViewControllerAnimated(true)
     }
-
+    
+    
+    @IBAction func lista(sender: AnyObject) {
+        if isInstitution{
+            print("lista voluntarios")
+        }
+    }
+    
+    
 }
 
 extension InstitutionProfileViewController: UITableViewDelegate{
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-//        switch(indexPath.section){
-//        case Section.Contact.rawValue:
-//        case Section.InterestArea.rawValue:
-//            
-//        }
+        switch indexPath.section{
+        case Section.Contact.rawValue:
+            switch indexPath.row{
+            case Row.Address.rawValue:
+                let geoCoder = CLGeocoder()
+                let addressString = institution.objectForKey("endereco") as! String
+                
+                geoCoder.geocodeAddressString(addressString, completionHandler: { (placemarks: [CLPlacemark]?, error:NSError?) -> Void in
+                    if error != nil {
+                        SVProgressHUD.showErrorWithStatus("Erro obtendo localização! \(error!.localizedDescription)")
+                    } else if placemarks!.count > 0 {
+                        let placemark = placemarks![0]
+                        let location = placemark.location
+                        let latitute:CLLocationDegrees = (placemark.location?.coordinate.latitude)!
+                        let longitute:CLLocationDegrees = (placemark.location?.coordinate.longitude)!
+                        let regionDistance:CLLocationDistance = 100
+                        let coordinates = CLLocationCoordinate2DMake(latitute, longitute)
+                        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+                        let options = [ MKLaunchOptionsMapCenterKey: NSValue(MKCoordinate: regionSpan.center),
+                            MKLaunchOptionsMapSpanKey: NSValue(MKCoordinateSpan: regionSpan.span) ]
+                        let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: (location?.coordinate)!, addressDictionary: nil))
+                        mapItem.name = addressString
+                        mapItem.openInMapsWithLaunchOptions(options)
+                    }
+                })
+                
+                
+            case Row.Phone.rawValue:
+                if institution != nil{
+                    let stringArray = (institution.objectForKey("telefone") as! String).componentsSeparatedByCharactersInSet(NSCharacterSet.decimalDigitCharacterSet().invertedSet)
+                    let newString = stringArray.joinWithSeparator("")
+                    
+                    let url: NSURL = NSURL(string: NSString(format: "tel://%@", newString as String) as String)!
+                    UIApplication.sharedApplication().openURL(url)
+                }
+                
+            case Row.Email.rawValue:
+                if institution != nil{
+                    if MFMailComposeViewController.canSendMail() {
+                        SVProgressHUD.showWithStatus(NSLocalizedString("Enviando o email...",comment:""), maskType: SVProgressHUDMaskType.Gradient)
+                        let mailComposer = MFMailComposeViewController()
+                        mailComposer.mailComposeDelegate = self
+                        mailComposer.setToRecipients([institution.objectForKey("email") as! String])
+                        mailComposer.setSubject(NSLocalizedString("Reddo - Voluntário interessado :)",comment:""))
+                        mailComposer.setMessageBody(NSLocalizedString("Oi, meu nome é Henrique e estou interessado em ministrar um curso nesta insituição.", comment:""), isHTML: true)
+                        presentViewController(mailComposer, animated: true, completion: nil)
+                        SVProgressHUD.dismiss()
+                    }else{
+                        SVProgressHUD.showErrorWithStatus(NSLocalizedString("Enable to send email!", comment:""), maskType: SVProgressHUDMaskType.Gradient)
+                    }
+                }
+                
+            default:
+                print("")
+                
+            }
+            
+        case Section.InterestArea.rawValue:
+            print("")
+            
+        default:
+            print("")
+        }
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -112,15 +191,27 @@ extension InstitutionProfileViewController: UITableViewDataSource{
             var img:UIImage!
             switch indexPath.row{
             case Row.Address.rawValue:
-                text = (institution.objectForKey("endereco") as! String).capitalizedString
+                if institution != nil{
+                    text = (institution.objectForKey("endereco") as! String).capitalizedString
+                }else{
+                    text = "Rua ficticia"
+                }
                 img = UIImage(named: "cloud")
                 
             case Row.Phone.rawValue:
-                text = institution.objectForKey("telefone") as! String
+                if institution != nil{
+                    text = institution.objectForKey("telefone") as! String
+                }else{
+                    text = "(51)8295-3582"
+                }
                 img = UIImage(named: "phone")
                 
             case Row.Email.rawValue:
-                text = institution.objectForKey("email") as! String
+                if institution != nil{
+                    text = institution.objectForKey("email") as! String
+                }else{
+                    text = "contato@instituicao.edu.br"
+                }
                 img = UIImage(named: "email")
                 
             default:
@@ -176,6 +267,37 @@ extension InstitutionProfileViewController: UITableViewDataSource{
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 2
+    }
+    
+}
+
+
+// MARK: - MFMailComposeViewControllerDelegate
+extension InstitutionProfileViewController:MFMailComposeViewControllerDelegate{
+    
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        switch (result.rawValue) {
+        case MFMailComposeResultCancelled.rawValue:
+            SVProgressHUD.showInfoWithStatus(NSLocalizedString("Email cancelado", comment:""), maskType: SVProgressHUDMaskType.Gradient)
+            break;
+            
+        case MFMailComposeResultSaved.rawValue:
+            SVProgressHUD.showInfoWithStatus(NSLocalizedString("Email salvo", comment:""), maskType: SVProgressHUDMaskType.Gradient)
+            break;
+            
+        case MFMailComposeResultSent.rawValue:
+            SVProgressHUD.showSuccessWithStatus(NSLocalizedString("Email enviado!", comment: ""), maskType: SVProgressHUDMaskType.Gradient)
+            break;
+            
+        case MFMailComposeResultFailed.rawValue:
+            SVProgressHUD.showSuccessWithStatus(String(format:NSLocalizedString("Erro ao enviar o email! %@", comment:""), (error?.localizedDescription)!), maskType: SVProgressHUDMaskType.Gradient)
+            break;
+            
+        default:
+            break;
+        }
+        
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
 }

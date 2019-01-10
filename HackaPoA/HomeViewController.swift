@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func btnInstPressed(sender: UIButton) {
-        let vc = InstitutionProfileViewController()
+        let vc = ListaVoluntariosViewController()
         self.navigationController!.pushViewController(vc, animated: true)
     }
     

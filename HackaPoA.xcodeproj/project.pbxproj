@@ -13,8 +13,8 @@
 		35DA75021BEC51FD00A9BA01 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA75001BEC51FD00A9BA01 /* ProfileTableViewCell.swift */; };
 		35DA75031BEC51FD00A9BA01 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DA75011BEC51FD00A9BA01 /* ProfileTableViewCell.xib */; };
 		3DCBFF0F1BEC6EBE0098C555 /* Instituicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBFF0E1BEC6EBE0098C555 /* Instituicao.swift */; };
-		3DDC7B1D1BEC761100C9F118 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC7B1C1BEC761100C9F118 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		3DDC7B1F1BEC762300C9F118 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC7B1E1BEC762300C9F118 /* HomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		3DDC7B1D1BEC761100C9F118 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC7B1C1BEC761100C9F118 /* HomeViewController.swift */; };
+		3DDC7B1F1BEC762300C9F118 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC7B1E1BEC762300C9F118 /* HomeViewController.xib */; };
 		621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A291BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift */; };
 		621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2A1BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib */; };
 		621B5A331BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2B1BEC714800486CCE /* InstitutionProfileInterestTableViewCell.swift */; };
@@ -23,6 +23,8 @@
 		621B5A361BEC714800486CCE /* InstitutionProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */; };
 		621B5A371BEC714800486CCE /* IntitutionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */; };
 		621B5A381BEC714800486CCE /* IntitutionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B5A301BEC714800486CCE /* IntitutionsViewController.xib */; };
+		623A10F81BECB7E100682AFC /* ListaVoluntariosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A10F61BECB7E000682AFC /* ListaVoluntariosViewController.swift */; };
+		623A10F91BECB7E100682AFC /* ListaVoluntariosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623A10F71BECB7E000682AFC /* ListaVoluntariosViewController.xib */; };
 		629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */; };
 		629F68B71BEC2E75000C0D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B61BEC2E75000C0D6E /* Assets.xcassets */; };
 		629F68BA1BEC2E75000C0D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */; };
@@ -47,6 +49,8 @@
 		621B5A2E1BEC714800486CCE /* InstitutionProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstitutionProfileViewController.xib; sourceTree = "<group>"; };
 		621B5A2F1BEC714800486CCE /* IntitutionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntitutionsViewController.swift; sourceTree = "<group>"; };
 		621B5A301BEC714800486CCE /* IntitutionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntitutionsViewController.xib; sourceTree = "<group>"; };
+		623A10F61BECB7E000682AFC /* ListaVoluntariosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaVoluntariosViewController.swift; sourceTree = "<group>"; };
+		623A10F71BECB7E000682AFC /* ListaVoluntariosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaVoluntariosViewController.xib; sourceTree = "<group>"; };
 		629F68AC1BEC2E75000C0D6E /* HackaPoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaPoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		629F68B61BEC2E75000C0D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 			children = (
 				3DCBFF0D1BEC6E9D0098C555 /* Models */,
 				629F68AF1BEC2E75000C0D6E /* AppDelegate.swift */,
+				623A10F61BECB7E000682AFC /* ListaVoluntariosViewController.swift */,
+				623A10F71BECB7E000682AFC /* ListaVoluntariosViewController.xib */,
 				629F68B81BEC2E75000C0D6E /* LaunchScreen.storyboard */,
 				629F68B61BEC2E75000C0D6E /* Assets.xcassets */,
 				357E824C1BEC43F0004248D4 /* HackaPoA-Bridging-Header.h */,
@@ -210,6 +216,7 @@
 				621B5A321BEC714800486CCE /* InstitutionProfileContactTableViewCell.xib in Resources */,
 				621B5A381BEC714800486CCE /* IntitutionsViewController.xib in Resources */,
 				3DDC7B1F1BEC762300C9F118 /* HomeViewController.xib in Resources */,
+				623A10F91BECB7E100682AFC /* ListaVoluntariosViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 				621B5A311BEC714800486CCE /* InstitutionProfileContactTableViewCell.swift in Sources */,
 				3DDC7B1D1BEC761100C9F118 /* HomeViewController.swift in Sources */,
 				621B5A351BEC714800486CCE /* InstitutionProfileViewController.swift in Sources */,
+				623A10F81BECB7E100682AFC /* ListaVoluntariosViewController.swift in Sources */,
 				3591B71B1BEC48F900533A0A /* VolunteerProfileViewController.swift in Sources */,
 				629F68B01BEC2E75000C0D6E /* AppDelegate.swift in Sources */,
 			);

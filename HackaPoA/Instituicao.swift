@@ -18,9 +18,7 @@ class Test {
         })
     }
     
-    func listItems(callback:() -> Void)
-    {
-        
+    func listItems(callback:() -> Void){
         let qry = IBMQuery(forClass: "Instituicao")
         qry.find().continueWithBlock{ task in
             if((task.error()) != nil) {
